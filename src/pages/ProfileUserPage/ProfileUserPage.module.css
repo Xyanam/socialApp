@@ -1,0 +1,65 @@
+.container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 1700px;
+}
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  max-width: 500px;
+  height: 200px;
+  width: 100%;
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 15px 15px;
+}
+.postsContainer {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.avatar {
+  width: 250px;
+  height: 300px;
+  background-color: gray;
+  border-radius: 15px;
+}
+.avatar img {
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  border: 3px solid gray;
+}
+.name {
+  font-size: 26px;
+  font-weight: bold;
+}
+.status {
+  color: gray;
+  font-size: 16px;
+}
+.city {
+  margin-top: 30px;
+  font-weight: 500;
+}
+.addFriend {
+  width: 100%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}

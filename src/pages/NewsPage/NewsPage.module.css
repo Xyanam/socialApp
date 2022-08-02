@@ -1,0 +1,36 @@
+.container {
+  max-width: 1420px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.post {
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px 20px;
+}
+.author {
+  color: gray;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.likes {
+  display: flex;
+  justify-content: flex-start;
+}
+.like {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.date {
+  color: gray;
+  display: flex;
+}
