@@ -4,10 +4,10 @@ My pet-project is under development, but you can already create your profile in 
 
 ## Technologies
 
-- React version: 18.2.0
-- React-router-dom: version: 6.3.0
-- Redux ToolKit version: 1.8.3
-- Firebase version: 9.9.0
+- React 
+- React-router-dom
+- Redux ToolKit
+- Firebase
 
 ## Setup
 
