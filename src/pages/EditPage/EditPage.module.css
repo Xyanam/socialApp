@@ -1,0 +1,64 @@
+.container {
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.formItems {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.formItems input {
+  width: 300px;
+  height: 30px;
+  padding: 0px 15px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+}
+.avaBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.setAvatar {
+  border: 1px solid black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 60px;
+}
+.setAvatar:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.chooseAva {
+  appearance: none;
+  display: none;
+}
+.avaBlock input {
+  border: none;
+}
+.yourImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
+.image {
+  width: 200px;
+  height: 250px;
+}

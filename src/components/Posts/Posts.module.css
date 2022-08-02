@@ -1,0 +1,67 @@
+.posts {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.postData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.postData input {
+  width: 250px;
+  height: 30px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.send {
+  margin-left: 10px;
+  height: 32px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.post {
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border-radius: 15px;
+  position: relative;
+}
+.author {
+  color: gray;
+  font-size: 18px;
+}
+.title {
+  height: 30px;
+  border-left: 2px solid gray;
+  padding-left: 10px;
+}
+.likes {
+  display: flex;
+  justify-content: flex-start;
+}
+.like {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.date {
+  color: gray;
+  display: flex;
+}
+.remove {
+  position: absolute;
+  top: 8%;
+  left: 93%;
+  cursor: pointer;
+}
