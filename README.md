@@ -18,3 +18,5 @@ $ npm start
 ```
 ## Project Demo
 https://socialnetwork-eb00c.firebaseapp.com/login
+
+## Preview project ![Screenshot_3](https://user-images.githubusercontent.com/102315914/182537511-25d02664-4cd0-47b3-a96e-b90717697cfe.png)
